@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+} 
+:root {
+    --main-color: #1BD3C6;
+    --text-main: #1b1642;
+    --text-color: #363636;
+    --bg-main: #e6f8f9;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    background: var(--bg-main);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;    
+
+}
+
+header ul, .header-menu {
+    display: flex;
+}
+
+header ul:last-child {
+    margin-left: 2rem;
+}
+
+header li {
+    margin-right: 1.5rem;
+}
+
+header li a {
+    color: var(--text-main);
+    font-size: .95rem;
+}
+
+header ul:last-child li:last-child {
+    margin-right: 5rem;
+}
+
+ .btn {
+    padding: .57rem 2rem;
+    border-radius: 5px;
+} 
+
+.btn-outline-text {
+    border: 1px solid var(--text-main);
+} 
+
+.btn-main {
+    background: var(--main-color);
+    color: var(--text-main);
+} 
+
+.wrapper {
+    width: 85%;
+    margin:  0 auto;
+}
+
+.hero {
+    padding: 4rem 0rem;
+    min-height: calc(100vh - 75px);
+    background: var(--bg-main)
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: auto 40%;
+    grid-gap: 0rem 2rem;
+    color: var(--text-main) ;
+
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+
+
+}
+
+.hero-text p {
+    
+    padding-right: 10rem;
+    margin-bottom: 2.5rem;
+}
+
+.hero-img img {
+    width: 100%;
+    height: auto;
+}
