@@ -20,6 +20,10 @@
     margin: auto;
 }
 
+
+
+/* HEADER MENU */
+
 header {
     background: var(--bg-main);
 }
@@ -84,8 +88,14 @@ header ul:last-child li:last-child {
     margin:  0 auto;
 }
 
-.hero {
+section {
     padding: 4rem 0rem;
+
+}
+
+/* HERO SECTION */
+
+.hero {
     min-height: calc(100vh - 75px);
     background: var(--bg-main)
 }
@@ -99,17 +109,18 @@ header ul:last-child li:last-child {
 
 }
 
-.hero-text h1 {
+.hero-text h1, .about-text h1 {
     font-size: 3rem;
     margin-bottom: 1.5rem;
     margin-top: 2rem;
+    color: var(--text-main);
 
 
 }
 
-.hero-text p {
-    
-    padding-right: 10rem;
+.hero-text p, .about-text p {
+    line-height: 2rem;
+    padding-right: 8rem;
     margin-bottom: 3rem;
 }
 
@@ -119,7 +130,31 @@ header ul:last-child li:last-child {
     font-weight: 600;
     font-size: 1.4rem;
 }
-.hero-img img {
+ img {
     width: 100%;
     height: auto;
 }
+
+
+
+/* ABOUT SECTION */
+
+.about {
+    padding: 5rem 0rem;
+
+}
+
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-gap: 0rem 5rem;
+
+}
+
+.about-text  h1 span{
+     text-decoration: line-through;
+
+}
+
+/* TEAM SECTION */
