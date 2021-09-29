@@ -158,3 +158,62 @@ section {
 }
 
 /* TEAM SECTION */
+
+.text-center {
+    text-align: center;
+}
+
+.team-text {
+    margin-bottom: 2rem;
+}
+
+.team-text h1 {
+font-size: 3rem;
+
+color: var(--text-main);
+}
+
+.team-text p{
+    margin-top: 1rem;
+}
+
+.team.member h3, h4 {
+    margin-bottom: .2rem;
+}
+
+.team-member h3 {
+    color: var(--text-main);
+}
+
+
+.team-member h3 + h4 {
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.team-member h4:last-child {
+    text-transform: uppercase;
+    color: var(--text-main);
+    font-weight: 400 ;
+} 
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 4rem;
+}
+
+.team-member{
+    text-align: center;
+}
+
+.team-member .img {
+    height:155px;
+    width: 155px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 1rem ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
