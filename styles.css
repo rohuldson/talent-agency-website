@@ -163,13 +163,12 @@ section {
     text-align: center;
 }
 
-.team-text {
+.team-text, .partner-text {
     margin-bottom: 2rem;
 }
 
-.team-text h1 {
+.team-text h1, .partner-text h1  {
 font-size: 3rem;
-
 color: var(--text-main);
 }
 
@@ -276,4 +275,18 @@ color: var(--text-main);
     text-transform: uppercase;
     font-weight:  400;
  
+ }
+
+ /* partner */
+
+ .partner-grid{
+     display: grid;
+     grid-template-columns:  repeat(5, 1fr) ;
+     grid-gap: 3rem 1rem;
+     padding: 0rem 5rem;
+ }
+
+ .partner-grid img {
+    width: 80%;
+    height: auto;
  }
