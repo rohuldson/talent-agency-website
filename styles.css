@@ -279,12 +279,19 @@ color: var(--text-main);
 
  /* partner */
 
+.partner .wrapper{
+    padding: .5rem 0rem;
+}
+
  .partner-grid{
+     margin-top: 4.5rem;
      display: grid;
      grid-template-columns:  repeat(5, 1fr) ;
      grid-gap: 3rem 1rem;
      padding: 0rem 5rem;
  }
+
+
 
  .partner-grid img {
     width: 80%;
