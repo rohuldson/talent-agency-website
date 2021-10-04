@@ -167,7 +167,9 @@ section {
     margin-bottom: 2rem;
 }
 
-.team-text h1, .partner-text h1  {
+.team-text h1, 
+.partner-text h1,
+.support-text h1  {
 font-size: 3rem;
 color: var(--text-main);
 }
@@ -296,4 +298,50 @@ color: var(--text-main);
  .partner-grid img {
     width: 80%;
     height: auto;
+ }
+
+  
+
+ /* Support Section */
+
+ .support {
+     padding: 0 0 3rem 0;
+ }
+
+ .support .wrapper {
+     padding: 7rem 0rem;
+     background-color: var(--main-color);
+     border-radius:10px;
+
+ }
+
+ .support-controls {
+     margin: 4rem 0rem 2rem 0rem ;
+     display: flex;
+     justify-content: center;
+ }
+
+ .support-controls a{
+     display: inline-block;
+ }
+
+
+ .support-controls a:first-child{
+     margin-right: 2rem;
+    
+ }
+
+ .support-controls .btn{
+     padding: 1rem 4rem;
+     font-size: 1.2rem;
+ } 
+
+ .btn-main-blue{
+     color: #fff;
+     background-color: var(--text-main)
+ }
+
+ .btn-white {
+    color: var(--text-main);
+    background-color: #fff;
  }
