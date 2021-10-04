@@ -15,6 +15,10 @@
     --bg-main: #e6f8f9;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .container {
     width: 90%;
     margin: auto;
@@ -344,4 +348,47 @@ color: var(--text-main);
  .btn-white {
     color: var(--text-main);
     background-color: #fff;
+ }
+
+ /* Footer */
+
+ footer {
+     background-color:var(--text-main)
+ }
+ footer .container{
+     padding: 4rem 0rem;
+ }
+
+ .footer-grid{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-gap: 0rem 2rem;
+ }
+
+ .footer-brand h3 {
+     color: var(--main-color) ;
+     text-transform: uppercase;
+     font-weight: 500;
+ }
+
+ .footer-brand span {
+     display: inline-block;
+     margin-right: .6rem;
+ }
+
+ footer p, footer a{
+     margin-top: .5rem;
+     color: #fff;
+
+ }
+
+ .footer-menu h4{
+     color: var(--main-color);
+     margin-bottom: .9rem;
+     font-size: 1.2rem;
+     font-weight: 500;
+ }
+
+ .footer-menu li {
+     margin-bottom: .8rem;
  }
